@@ -571,7 +571,7 @@
     /* Mantén tu CSS existente aquí sin cambios */
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 2.5rem;
       padding: 0 1rem;
       max-width: 1200px;
@@ -695,8 +695,8 @@
   </style>
 
   <div class="projects-grid">
-        <!-- Project 1 -->
-    
+    <!-- Project 1 -->
+      
    <div class="project-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
   <img src="./project-1.jpeg" alt="Nashville Housing Project screenshot" class="project-image" />
   <h2 class="project-title">
@@ -813,6 +813,17 @@
         Github
       </button>
     </div>
+
+    
+</section>
+
+<script>
+  // Inicializa AOS
+  AOS.init({
+    once: true, // animar solo una vez al hacer scroll
+  });
+</script>
+
 
 
 
